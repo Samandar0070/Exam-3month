@@ -1,0 +1,81 @@
+.backgraundcolor {
+  background: #1b262f;
+}
+.footer {
+  margin-top: 80px;
+  height: 353px;
+  text-align: center;
+  &__logo {
+    margin-top: 41px;
+  }
+  &__link {
+    margin-top: 25px;
+    color: #fbfcfe;
+    font-family: Public Sans;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+  }
+  &__link:hover {
+    color: bisque;
+  }
+  &__messangers {
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+  }
+  &__img:hover {
+    background-color: bisque;
+  }
+}
+@media only screen and (min-width: 576px) {
+  .footer {
+    margin-top: 80px;
+    height: 100px;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-template-rows: 1fr;
+
+    &__links {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-right: 40px;
+    }
+    &__nav {
+      flex-direction: row;
+      gap: 30px;
+    }
+
+    &__messengers {
+      margin-top: 20px;
+    }
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .footer {
+    margin-top: 80px;
+    height: 100px;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-template-rows: 1fr;
+
+    &__links {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-right: 40px;
+    }
+    &__nav {
+      flex-direction: row;
+      gap: 30px;
+    }
+
+    &__messangers {
+      margin-top: 20px;
+    }
+  }
+}

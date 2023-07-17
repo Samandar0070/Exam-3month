@@ -1,0 +1,112 @@
+.ppp{
+  text-align: center;
+  margin-top: 80px;
+  width: 328px;
+  margin: 0 auto;
+  &__box {
+    margin-top: 48px;
+    width: 328px;
+  }
+  &__img {
+    width: 106px;
+    height: 106px;
+  }
+  &__title {
+    margin-top: 33px;
+    margin-bottom: 16px;
+    color: #36536b;
+    text-align: center;
+    font-family: Public Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 25px; /* 138.889% */
+    letter-spacing: -0.138px;
+  }
+  &__text {
+    color: #6c8294;
+    text-align: center;
+    font-family: Public Sans;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 25px; /* 166.667% */
+    letter-spacing: -0.115px;
+  }
+}
+@media only screen and (min-width: 576px) {
+  .ppp {
+    text-align: center;
+    margin-top: 100px;
+    width: 100%;
+    &__box {
+      margin-top: 48px;
+      width: 223px;
+    }
+    &__img {
+      width: 88px;
+      height: 88px;
+    }
+    &__title {
+      margin-top: 33px;
+      margin-bottom: 16px;
+      color: #36536b;
+      text-align: center;
+      font-family: Public Sans;
+      font-size: 18px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: 25px; /* 138.889% */
+      letter-spacing: -0.138px;
+    }
+    &__text {
+      color: #6c8294;
+      text-align: center;
+      font-family: Public Sans;
+      font-size: 15px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 25px; /* 166.667% */
+      letter-spacing: -0.115px;
+    }
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .boxes {
+    text-align: center;
+    margin-top: 100px;
+    width: max-content;
+
+    &__ppp {
+      margin-top: 48px;
+      width: 350px;
+    }
+    &__img {
+      width: 106px;
+      height: 106px;
+    }
+    &__title {
+      margin-top: 33px;
+      margin-bottom: 16px;
+      color: #36536b;
+      text-align: center;
+      font-family: Public Sans;
+      font-size: 18px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: 25px; /* 138.889% */
+      letter-spacing: -0.138px;
+    }
+    &__text {
+      color: #6c8294;
+      text-align: center;
+      font-family: Public Sans;
+      font-size: 15px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 25px; /* 166.667% */
+      letter-spacing: -0.115px;
+    }
+  }
+}

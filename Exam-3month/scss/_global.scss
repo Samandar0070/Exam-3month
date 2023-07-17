@@ -1,0 +1,47 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+h1,
+h2 {
+  font-family: "DM Serif Display", serif;
+}
+h3 {
+  font-family: "Public Sans", sans-serif;
+  font-weight: 700;
+}
+p {
+  font-family: "Public Sans", sans-serif;
+  font-weight: 400;
+}
+.hendmade {
+  font-family: "Roboto Mono", monospace;
+}
+.button {
+  border: none;
+  border-radius: 24px;
+  background: #ba4270;
+  box-shadow: 10px 10px 25px -10px;
+  width: 327px;
+  height: 48px;
+  text-align: center;
+  color: white;
+  padding: 12px 0;
+  font-family: "Public Sans", sans-serif;
+  font-weight: 700;
+}
+.button:hover {
+  background: #da6d97;
+}
+.inputs {
+  &__input-email {
+    border-radius: 24px;
+    background: #fbfcfe;
+    box-shadow: 10px 10px 25px -10px rgba(54, 83, 107, 0.25);
+    width: 327px;
+    height: 48px;
+    border: none;
+  }
+}

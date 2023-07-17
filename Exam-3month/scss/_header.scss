@@ -1,0 +1,34 @@
+.header {
+  margin-top: 25px;
+  &__box1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  &__button {
+    display: none;
+  }
+}
+@media only screen and (min-width: 576px) {
+  .header__box1 {
+    justify-content: left;
+  }
+  .header__button {
+    display: block;
+    text-align: center;
+
+    width: 173px;
+    height: 48px;
+  }
+  .header {
+    display: flex;
+    justify-content: space-between;
+  }
+}
+@media only screen and (min-width: 768px) {
+  .header__button {
+    display: block;
+    width: 173px;
+    height: 48px;
+  }
+}

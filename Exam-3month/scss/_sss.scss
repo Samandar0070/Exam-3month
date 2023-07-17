@@ -1,0 +1,222 @@
+.sss {
+  margin-top: 80px;
+  &__codes {
+    background: #1b262f;
+    margin: 0 auto;
+    width: 328px;
+    height: 209px;
+    border-radius: 8px;
+  }
+  &__top {
+    background-color: #2e3f4d;
+    height: 30px;
+    border-radius: 8px 8px 0 0;
+    display: flex;
+    padding: 12px 9px;
+    gap: 5px;
+  }
+
+  &__circle1 {
+    width: 12px;
+    height: 12px;
+    background-color: rgb(115, 61, 61);
+    border-radius: 50%;
+  }
+  &__circle2 {
+    width: 12px;
+    height: 12px;
+    background-color: rgb(106, 104, 104);
+    border-radius: 50%;
+  }
+  &__circle3 {
+    width: 12px;
+    height: 12px;
+    background-color: rgb(31, 35, 35);
+    border-radius: 50%;
+  }
+  &__codescode {
+    margin-top: 10px;
+    margin-left: 10px;
+    color: #fbfcfe;
+    font-family: Roboto Mono;
+    font-size: 9px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 16px; /* 177.778% */
+  }
+  &__title {
+    margin-top: 40px;
+    color: #36536b;
+    text-align: center;
+    font-family: DM Serif Display;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 36px; /* 100% */
+    letter-spacing: -0.277px;
+  }
+  &__text {
+    margin-top: 24px;
+    color: #6c8294;
+    text-align: center;
+    font-family: Public Sans;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px; /* 186.667% */
+  }
+}
+@media only screen and (min-width: 576px) {
+  .sss {
+    margin-top: 100px;
+
+    &__codes {
+      background: #1b262f;
+      margin: 0 auto;
+      width: 392px;
+      height: 250px;
+      border-radius: 8px;
+    }
+    &__top {
+      background-color: #2e3f4d;
+      height: 35px;
+      border-radius: 8px 8px 0 0;
+      display: flex;
+
+      gap: 10px;
+    }
+
+    &__circle1 {
+      width: 14px;
+      height: 14px;
+      background-color: rgb(115, 61, 61);
+      border-radius: 50%;
+    }
+    &__circle2 {
+      width: 14px;
+      height: 14px;
+      background-color: rgb(106, 104, 104);
+      border-radius: 50%;
+    }
+    &__circle3 {
+      width: 14px;
+      height: 14px;
+      background-color: rgb(31, 35, 35);
+      border-radius: 50%;
+    }
+    &__codescode {
+      margin-top: 20px;
+      margin-left: 30px;
+      color: #fbfcfe;
+      font-family: Roboto Mono;
+      font-size: 11px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 18px; /* 177.778% */
+    }
+    &__title {
+      margin-top: 50px;
+      color: #36536b;
+      text-align: center;
+      font-family: DM Serif Display;
+      font-size: 48px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 56px; /* 116.667% */
+      letter-spacing: -0.369px;
+    }
+    &__text {
+      margin-top: 30px;
+      color: #6c8294;
+      text-align: center;
+      font-family: Public Sans;
+      font-size: 15px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 28px; /* 186.667% */
+    }
+    &__texts {
+      width: 573px;
+      margin: 0 auto;
+    }
+  }
+}
+@media only screen and (min-width: 768px) {
+  .sss {
+    margin-top: 150px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 125px;
+
+    &__codes {
+      background: #1b262f;
+      margin: 0 auto;
+      width: 392px;
+      height: 250px;
+      border-radius: 8px;
+    }
+    &__top {
+      background-color: #2e3f4d;
+      height: 35px;
+      border-radius: 8px 8px 0 0;
+      display: flex;
+
+      gap: 10px;
+    }
+
+    &__circle1 {
+      width: 14px;
+      height: 14px;
+      background-color: rgb(115, 61, 61);
+      border-radius: 50%;
+    }
+    &__circle2 {
+      width: 14px;
+      height: 14px;
+      background-color: rgb(106, 104, 104);
+      border-radius: 50%;
+    }
+    &__circle3 {
+      width: 14px;
+      height: 14px;
+      background-color: rgb(31, 35, 35);
+      border-radius: 50%;
+    }
+    &__codescode {
+      margin-top: 20px;
+      margin-left: 30px;
+      color: #fbfcfe;
+      font-family: Roboto Mono;
+      font-size: 11px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 18px; /* 177.778% */
+    }
+    &__title {
+      margin-top: 50px;
+      color: #36536b;
+      text-align: left;
+      font-family: DM Serif Display;
+      font-size: 48px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 56px; /* 116.667% */
+      letter-spacing: -0.369px;
+    }
+    &__text {
+      margin-top: 30px;
+      color: #6c8294;
+      text-align: left;
+      font-family: Public Sans;
+      font-size: 15px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 28px; /* 186.667% */
+    }
+    &__texts {
+      width: 445px;
+      margin: 0 auto;
+    }
+  }
+}
